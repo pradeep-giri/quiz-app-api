@@ -1,7 +1,6 @@
 {
   "name": "mean-project",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -15,5 +14,8 @@
     "bcryptjs": "^2.4.3",
     "sharp": "0.21.1",
     "validator": "^10.9.0"
+  },
+  "engines": {
+    "node": "10.16.3"
   }
 }
