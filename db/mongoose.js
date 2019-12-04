@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://pradeep_giri_:Gaytridetwal@123@cluster0-wooqu.mongodb.net/QuizApp?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
